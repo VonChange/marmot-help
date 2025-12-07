@@ -1,0 +1,42 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Compiled
+*.class
+bin/
+target/
+
+# Logs
+*.log
+
+# Package Files
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.war
+*.nar
+*.ear
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local
+local.properties
+marmot-scrcpy-server.jar
+
+# Other
+.qoder/
+.externalNativeBuild
+.cxx
+/captures
+.vscode
+out/
+.kiro/
