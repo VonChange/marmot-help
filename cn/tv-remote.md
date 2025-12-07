@@ -12,7 +12,7 @@
 
 **安装方法**：
 1. 在电视应用商店搜索 "MarmotX"
-2. 下载并安装 MarmotX 应用[下载地址111](https://www.baidu.com)
+2. 下载并安装 MarmotX 应用[下载地址222](https://www.baidu.com)
 3. 打开 MarmotX 应用，确保应用正在运行
 
 ### 2. 确保设备连接
