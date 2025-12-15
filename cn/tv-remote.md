@@ -13,7 +13,7 @@
 **安装方法**：
 1. 在电视应用商店搜索 "MarmotX"
 2. 下载并安装 MarmotX 应用[下载地址1](https://www.utao.tv)
-3. 打开 MarmotX 应用，确保应用正在运行
+3. 打开 MarmotX 应用，确保应用正在运行[adb-otg](marmot://adb-otg-page)
 
 ### 2. 确保设备连接
 
