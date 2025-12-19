@@ -1,0 +1,8 @@
+# 帮助文档规则配置
+version: 1
+type: help
+renderMode: list
+mapping:
+  default: cn
+fallback: cn
+entryFile: README.md
