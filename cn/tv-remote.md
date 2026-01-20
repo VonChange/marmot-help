@@ -14,6 +14,9 @@
 1. 在电视应用商店搜索 "MarmotX"
 2. 下载并安装 MarmotX 应用[下载地址1](https://www.utao.tv)
 3. 打开 MarmotX 应用，确保应用正在运行[adb-otg](marmot://adb-otg-page)
+### 抖音 (小爱版)
+精简版抖音，适合在触屏音响上刷短视频。
+- [🚀 立即安装](marmot://ociInstall?namespace=vonchange&name=douyinduanshipin&tag=v9.9.1903&title=抖音短视频小爱音响版)
 
 ### 2. 确保设备连接
 
