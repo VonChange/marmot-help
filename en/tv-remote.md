@@ -6,7 +6,7 @@ Control your smart TV with your phone using natural touch gestures such as swipe
 
 ### 1. Enable ADB Debugging on the TV
 
-TV Remote requires ADB debugging to be enabled on the TV. The steps vary by brand. See [How to Enable ADB Debugging](adb.md).
+TV Remote requires ADB debugging on the TV. On most Google TV / Android TV devices the steps are the same. See [How to Enable ADB Debugging](adb.md).
 
 ### 2. Use the Same Wi-Fi Network
 
@@ -66,10 +66,6 @@ When a text field on the TV receives focus, an input field automatically appears
 - **Disable apps:** Disable unwanted preinstalled apps.
 - **Set the default launcher:** Open **Utilities > Set Default Launcher** and select an installed launcher to open when the Home button is pressed. Some TVs require confirmation in the system chooser. If only the system launcher is listed, install another launcher app first.
 
-### 📺 Live TV
-
-Use built-in live TV sources to watch TV channels.
-
 ## Frequently Asked Questions
 
 ### Q: Why can I not find my TV?
@@ -89,12 +85,14 @@ If your phone runs a version **earlier than Android 11**, use the in-app [ADB OT
 
 ### Q: What settings are required on Android 11 or later?
 
-On some brands, such as Xiaomi, you may need to enable the following options in Developer options in addition to **USB debugging**:
+In **Developer options**, turn on **USB debugging**. If available, also turn on **Wireless debugging** or **Network debugging**.
+
+On a few devices you may also need:
 
 - **USB debugging (Security settings)**
-- **Install via USB**
+- **Install via USB** / allow installs via ADB
 
-Then open **Wireless debugging** in Developer options, enable it as instructed, and return to the app to continue connecting.
+Then return to the app and connect.
 
 ### Q: How do I enable ADB?
 

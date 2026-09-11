@@ -10,17 +10,16 @@ Welcome to Marmot TV Remote! This guide will help you get started quickly.
 |------|------|
 | 🖱️ **Air Mouse Remote** | Turn your phone into a wireless mouse with **touch controls**. Swipe, tap, and touch and hold as naturally as you would on a phone. |
 | ⌨️ **Real-Time Text Input** | Type quickly on your phone and see the text appear on your TV in real time. No more typing with a remote control. |
-| 📱 **Complete Device Management** | Install apps, transfer files, and adjust settings from one place. |
-| 💻 **PC Remote** | Turn your computer into a home theater and control it from the couch. |
+| 📱 **ADB Device Tools** | Install apps, manage files, check device info, and handle common TV settings from one place. |
 
 ### ✨ Highlights
 
 - 🔓 **No root required.** Connect and start using it.
-- 📺 Supports **99% of mainstream** smart TVs and TV boxes.
-- 👨‍👩‍👧‍👦 **One subscription** for the whole family.
+- 📺 Works with most **Google TV** / **Android TV** devices and TV boxes that support ADB.
+- 👨‍👩‍👧‍👦 **One subscription** for the household.
 - 👴 **Simple controls** that are easy for everyone to use.
 
-> Make technology simple again and enjoy a smarter living room.
+> Make big-screen control simple again.
 
 ---
 
@@ -28,14 +27,13 @@ Welcome to Marmot TV Remote! This guide will help you get started quickly.
 
 ### ⚠️ Important: Keep Your Devices on the Same Wi-Fi Network
 
-**All features require your phone and TV or computer to be connected to the same Wi-Fi network.**
+**TV Remote and casting require your phone and TV to be connected to the same Wi-Fi network.**
 
 How to check:
 - **Phone:** Open Settings > Wi-Fi and check the connected network name.
 - **TV:** Open Settings > Network and check the connected network name.
-- **Computer:** Check the network icon in the taskbar or menu bar and confirm the network name.
 
-> 💡 Tip: If the network names are different, connect the devices to the same network before continuing.
+> 💡 Tip: If the network names are different, connect both devices to the same network before continuing.
 
 ---
 
@@ -45,7 +43,7 @@ How to check:
 
 1. **Enable ADB debugging on the TV**
 
-   TV Remote requires ADB debugging to be enabled on the TV. The steps vary by brand. See [How to Enable ADB Debugging](adb.md).
+   TV Remote requires ADB debugging on the TV. On most Google TV / Android TV devices the steps are the same. See [How to Enable ADB Debugging](adb.md).
 
 2. **Use the same Wi-Fi network**
 
@@ -53,7 +51,7 @@ How to check:
 
 ### How to Use It
 
-The TV Remote page has **one device entry point**: tap **Devices** ![Devices button](../image/fx.jpg) in the upper-right corner. The app searches for all TVs on the local network at the same time. TVs with the service already installed and TVs that require first-time pairing appear in the same list.
+The TV Remote page has **one device entry point**: tap **Devices** ![Devices button](../image/fx.jpg) in the upper-right corner. The app searches for TVs on the local network. TVs with the service already installed and TVs that require first-time pairing appear in the same list.
 
 **First connection (one-time setup)**
 
@@ -73,48 +71,19 @@ The TV Remote page has **one device entry point**: tap **Devices** ![Devices but
 ### Features
 
 - 🖱️ **Air Mouse Remote:** Move the pointer with your finger and use natural swipe, tap, and touch-and-hold gestures.
-- ⌨️ **Keyboard Input:** Type searches directly with your phone keyboard.
-- 📱 **App Management:** Install, uninstall, and disable apps on the TV.
-- 📺 **Live TV:** Use built-in live TV sources.
+- ⌨️ **Keyboard Input:** Type searches and passwords directly with your phone keyboard.
+- 📱 **App and device tools:** Install or uninstall apps, manage files, and open utilities after connecting.
 
 ---
 
-## 💻 PC Remote
+## 🖼 Photo and Video Casting
 
-### Before You Start
-
-1. **Download the desktop app**
-
-   Download the version for your operating system:
-   - Windows: Windows 10/11
-   - Mac: macOS 10.15 or later
-
-   > Download: [Official Website](https://www.vonchange.com)
-
-2. **Install and run the desktop app**
-
-   Launch the app after installation and keep it running in the background.
-
-3. **Use the same Wi-Fi network**
-
-   Your phone and computer must be connected to the same Wi-Fi network.
-
-### How to Use It
-
-1. Open Marmot TV Remote.
-2. Tap **PC Remote**.
-3. Tap the **Discovery** button 🔍 in the upper-right corner.
-4. The app automatically finds computers on the local network that are running the desktop app.
-5. Select your computer to start controlling it.
-
-### Features
-
-- 🖱️ **Touchpad:** Turn your phone into a wireless mouse.
-- ⌨️ **Keyboard Input:** Type directly with your phone keyboard.
-- 📺 **Video Resources:** Browse and cast online videos.
+Cast local photos and videos from your phone to a DLNA-compatible TV. See [Photo and Video Casting](cast.md).
 
 ---
 
 ## Need Help?
 
-See the [FAQ](faq.md) if you encounter a problem.
+- See the [FAQ](faq.md) if you encounter a problem.
+- Join the [Telegram group](https://t.me/+Vymm7SOjZyMyOTJh) for questions and feedback.
+- Website: [m.utao.tv](https://m.utao.tv)

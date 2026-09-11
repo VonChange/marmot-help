@@ -11,37 +11,22 @@ The following features are in development.
 - Operate the TV without touching your phone.
 - Support common voice commands.
 
-### 🌍 International Release
-- Publish on Google Play.
-- Release the international iOS version.
+### 📁 Local Media Playback on TV
+- Open videos and photos directly from File Manager.
+- Play local media files on the TV.
+- Support common video and image formats.
 
 ---
 
 ## ⭐ Medium Priority
 
-### 📁 PC File Management
-- Browse local files on a computer.
-- Play local videos and photos on the computer.
-- Control playback remotely from the phone.
-
-### 📺 Local TV Playback
-- Open videos and photos directly from File Manager.
-- Play local media files on the TV.
-- Support common video and image formats.
-
 ### 🌐 Direct Web Video Playback
 - Enter a video link and play it directly on the TV.
-- No need to open a browser.
+- No need to open a browser first.
 
-### 🎮 Game Support
-- Control TV and computer games.
-- Use a virtual gamepad.
-- Support motion controls.
-
-### 📊 Office and Classroom Controls
-- Control PowerPoint presentations.
-- Support classroom scenarios.
-- Control office software.
+### 🎮 Gamepad-Style Controls
+- Use a virtual gamepad for supported apps and games on the TV.
+- Improve motion and gesture options where helpful.
 
 ---
 
@@ -54,6 +39,6 @@ The following features are in development.
 
 ---
 
-> 💬 Have a feature suggestion? Send us feedback from within the app.
+> 💬 Have a feature suggestion? Join the [Telegram group](https://t.me/+Vymm7SOjZyMyOTJh).
 
 Return to the [Help Home](README.md).

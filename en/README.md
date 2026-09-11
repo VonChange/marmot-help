@@ -10,7 +10,6 @@ Welcome to Marmot TV Remote! Here you can find detailed guides for using the app
 
 ### Remote Control
 - [📺 TV Remote](tv-remote.md) - Control a smart TV with your phone
-- [💻 PC Remote](pc-remote.md) - Control a computer with your phone
 - [📺 Enable ADB Debugging](adb.md) - Learn how to enable ADB debugging
 
 ### Casting
@@ -30,4 +29,4 @@ Welcome to Marmot TV Remote! Here you can find detailed guides for using the app
 
 ---
 
-**Tip:** If you run into a problem, check the FAQ and troubleshooting sections first.
+**Tip:** If you run into a problem, check the FAQ and troubleshooting sections first. For questions and feedback, join the [Telegram group](https://t.me/+Vymm7SOjZyMyOTJh).

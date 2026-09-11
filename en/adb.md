@@ -1,134 +1,87 @@
 # How to Enable ADB Debugging
 
-ADB (Android Debug Bridge) is an Android debugging tool. When enabled, it can be used to install third-party apps, uninstall preinstalled software, debug the system, and perform system maintenance.
+ADB (Android Debug Bridge) lets Marmot TV Remote connect to your TV or TV box over the local network.
 
-The steps for enabling ADB debugging on common TV brands are listed below.
+On most **Google TV** and **Android TV** devices sold internationally, the steps are the same. You do **not** need brand-specific factory codes.
 
----
+**Common devices this guide covers:**
 
-## Dangbei
+- Chromecast with Google TV / Google TV Streamer
+- NVIDIA Shield TV
+- Onn Google TV / Walmart streaming devices
+- TCL, Hisense, Sony, Philips, and other TVs running **Google TV** or **Android TV**
+- Many Android TV boxes sold outside China
 
-Developer options may be hidden by default on Dangbei TVs and boxes, such as the Dangbei B3 Pro. You may need to install a Developer Options APK before you can enable USB debugging.
-
-**Supported environment:** Dangbei B3 Pro and similar devices running 32-bit Android 9.
-
-**Steps:**
-
-1. Open [Developer Options APK Download](https://wwbng.lanzouq.com/s/vonchange) in a browser on your computer or phone, then download and install it on the TV or box.
-2. Open the installed app on the device.
-3. Find and enable **USB debugging** in Developer options.
+> Keep your phone and TV on the **same Wi-Fi** network before connecting in the app.
 
 ---
 
-## Xiaomi TVs and Boxes
+## Google TV / Android TV (recommended)
 
-**Method 1**
+### 1. Open Developer options
 
-Settings > Account & Security > Enable ADB debugging
+1. Open **Settings** on the TV.
+2. Go to **System** → **About** (sometimes **Device Preferences** → **About**).
+3. Select **Build** / **Build number** and press **OK** about **7 times** until you see a message that developer mode is enabled.
 
-**Method 2**
+### 2. Enable debugging
 
-1. Open **My Apps > Settings** on the TV.
-2. Select **About TV**.
-3. Tap the build number seven times until a message confirms that Developer mode is enabled.
-4. Return to Settings and select **More Settings > Developer options**.
-5. Enable USB debugging and network debugging.
+1. Go back to **Settings**.
+2. Open **System** → **Developer options**  
+   (on some devices: **Device Preferences** → **Developer options**).
+3. Turn on **USB debugging**.
+4. If you see **Network debugging**, **Wireless debugging**, or **ADB over network**, turn that on too.
 
-**Method 3**
+### 3. Allow the connection
 
-Open Settings > About Product > Model, then repeatedly press the OK button on the remote to enter debugging mode. Open Account & Security and enable ADB debugging.
+1. Open Marmot TV Remote on your phone and connect to the TV.
+2. When the TV shows an authorization prompt, choose **Allow** / **OK**.
+3. Optionally check **Always allow from this computer** so you do not need to approve again.
 
----
-
-## Changhong and Konka
-
-**Changhong TV**
-
-1. Press **Menu** on the remote and select **Settings**.
-2. Find **About TV**.
-3. Tap the version number or build number seven times.
-
-**Konka TV**
-
-Press the Menu button on the TV screen and enter `2008` with the remote. Wait for the factory menu to appear.
+That is usually all you need for overseas Google TV and Android TV devices.
 
 ---
 
-## Whaley, Coocaa, and Sony
+## Menu names may look slightly different
 
-**Whaley TV**
+Different brands keep the same flow, but labels can vary:
 
-Settings > Security > ADB debugging
+| Look for | Also called |
+|----------|-------------|
+| About | About device / Device information |
+| Build number | Android TV OS build / System version |
+| Developer options | Developer settings |
+| USB debugging | ADB debugging / USB debugging mode |
+| Network / Wireless debugging | ADB over network / Network ADB |
 
-**Coocaa TV**
-
-1. Touch and hold the Menu button on the remote, or open System Settings > Device Information from the navigation bar.
-2. Press `Up Up Down Down Left Right Left Right` on the remote to open the factory menu.
-3. Open General Settings > ADB switch.
-
-**Sony TV**
-
-1. Open Settings from the home screen and select **Security & Restrictions**.
-2. Enable **Unknown sources**.
-3. Open **Developer options** and enable **ADB debugging**.
+If you cannot find **Developer options**, search Settings for `developer` or `ADB`.
 
 ---
 
-## Hisense
+## Amazon Fire TV (optional)
 
-**Method 1**
-
-1. Open the menu with the remote and enter Sound settings.
-2. Select Balance and enter `0532` to open factory mode.
-
-**Method 2**
-
-1. Press Menu or Home on the remote, open the main menu, and select **Settings**.
-2. Open **About**.
-3. Press the number 7 or the OK button seven times until Developer mode appears.
-4. Open Developer mode and enable USB debugging.
+1. Open **Settings** → **My Fire TV** → **About**.
+2. Select **Your Fire TV** (or the device name) and press the remote **OK** button **7 times**.
+3. Go back and open **Developer options**.
+4. Enable **ADB debugging**.
+5. Enable **Apps from Unknown Sources** if the TV asks for it during install.
 
 ---
 
-## TCL, FFALCON, and Haier
+## Tips
 
-**TCL TV / FFALCON**
-
-Open My Apps > Settings (or System Settings) > About Device > Device Information, then press `Up Down Left Right` to enable ADB.
-
-**Haier TV**
-
-Open the Input Source screen, then press `Source Left Left Right Right` to enable ADB.
+- Prefer **Wi-Fi**, not guest networks or phone hotspots that isolate devices.
+- After enabling ADB, restart the TV if it does not appear in the app.
+- First connection needs a one-time **Allow** on the TV screen.
+- Some hotels or enterprise Wi-Fi block device discovery; try a home network.
 
 ---
 
-## Huawei
+## Still stuck?
 
-1. On the Vision home screen, open Settings > About Device > Version Number and tap it seven times to enable Developer options.
-2. Return to Settings and open **Developer options** under **System & Updates**.
-3. Enable **USB debugging**.
-4. Enable **ADB** below it.
+1. Confirm the TV runs **Google TV**, **Android TV**, or **Fire TV**.
+2. Confirm **USB debugging** (and network/wireless debugging if available) is on.
+3. Confirm phone and TV share the same Wi-Fi name.
+4. In Marmot TV Remote, open **TV Remote** → **Devices**, then try again or enter the TV IP manually.
 
----
-
-## LeTV
-
-1. Press the Input Source button and enter `2580`.
-2. Select Other Options on the engineering screen and scroll to the bottom.
-3. Select ADB debugging and turn it on.
-4. Restart the TV.
-
----
-
-## Skyworth
-
-**Method 1**
-
-1. Open the Device Information screen.
-2. Press `Up Up Down Down Left Right Left Right` on the remote to open the factory menu.
-
-**Method 2**
-
-1. Open Settings and select **About TV**.
-2. Find the software version number and tap it seven times to enable Developer options.
-3. Open Developer options and enable **USB debugging**.
+See also [Getting Started](getting-started.md) and the [FAQ](faq.md).
