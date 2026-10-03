@@ -19,10 +19,6 @@ Welcome to Marmot TV Remote! Here you can find detailed guides for using the app
 
 - [❓ FAQ](faq.md) - Answers and troubleshooting for common issues
 
-## 🚀 Coming Soon
-
-- [🔮 Roadmap](roadmap.md) - Features planned for future releases
-
 ## 📜 Release Notes
 
 - [📅 Releases](release.md) - Review update history and newly added features

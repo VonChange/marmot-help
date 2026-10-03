@@ -3,6 +3,6 @@ version: 1
 type: help
 renderMode: list
 mapping:
-  default: cn
-fallback: cn
+  default: en
+fallback: en
 entryFile: README.md
